@@ -1,0 +1,4 @@
+.terraform*
+*.swp
+.DS_Store
+terraform.tfstate*
