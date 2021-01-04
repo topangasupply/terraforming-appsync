@@ -2,7 +2,7 @@
 
 ## Set up steps
 
-_ Note, these are not tested in full. Please raise an issue if you're having trouble and it may be something we should provide clarification on._
+*Note, these are not tested in full. Please raise an issue if you're having trouble and it may be something we should provide clarification on.*
 
 1. Create an aws account if you don't have one you'd like to use. 
 2. Configure a user with sufficient permissions to deploy this application (for demo purposes the root user will suffice)
@@ -14,7 +14,7 @@ _ Note, these are not tested in full. Please raise an issue if you're having tro
 
 ## Changing the Lambda
 
-_ Note, we use Serverless for most of our lambda development primarily because of how the `python-serverless-requirements` plugin manages packaing. We've used terraform here, because it's the most expedient way to demonstrate the integration._
+*Note, we use Serverless for most of our lambda development primarily because of how the `python-serverless-requirements` plugin manages packaing. We've used terraform here, because it's the most expedient way to demonstrate the integration.*
 
 1. The deployment directory is `./src`. Edit this directory as you please.
 2. If you change the handler, you'll need to update that in the terraform resources.
