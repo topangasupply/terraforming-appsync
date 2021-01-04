@@ -10,7 +10,8 @@
 4. Change the variable blocks in `variables.tf` to match the id and name of your account.
 5. [Install](https://www.terraform.io/downloads.html) the `terraform` executable and have it on your PATH. I prefer to use [tfswitch](https://www.terraform.io/downloads.html) because it's very handy if you are working on projects with different terraform versions.
 6. Run `terraform init` to initialize the project. We're going to manage terraform's state file locally for demonstration simplicity, but consider using dynamo or s3 for anything more.
-7. Run `terraform apply`
+7. Enter the appropriate variables when prompted. Alternatively, you can add a default value in `variables.tf` to avoid doing this every time.
+8. Run `terraform apply`
 
 ## Changing the Lambda
 

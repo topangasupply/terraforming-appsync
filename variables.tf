@@ -1,14 +1,12 @@
 ## Global
 variable "aws_account_id" {
-  description = "Account to build resources in."
-  default     = "999783095318"
+  description = "AWS Account ID to build resources in."
 }
 
 variable "account_name" {
-  description = "Name of account."
-  default     = "terraforming-appsync"
+  description = "Name of aws account."
 }
 
 variable "region" {
-  default = "us-west-2"
+  description = "AWS region to build resources in."
 }
